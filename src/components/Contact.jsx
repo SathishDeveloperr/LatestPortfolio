@@ -47,7 +47,7 @@ export default function Contact() {
               { icon: Phone, label: 'Phone', value: profile.phone, href: `tel:${profile.phone.replace(/\s/g, '')}` },
               { icon: MapPin, label: 'Location', value: profile.location, href: null },
               { icon: Github, label: 'GitHub', value: 'View my code', href: profile.socials.github },
-              { icon: Linkedin, label: 'LinkedIn', value: 'Connect with me', href: profile.socials.linkedin },
+              { icon: Linkedin, label: 'LinkedIn', value: 'Connect with me', href: https://www.linkedin.com/in/sathish-kumar-s-3a23b430b/ },
             ].map(({ icon: Icon, label, value, href }, i) => {
               const Tag = href ? 'a' : 'div'
               return (
