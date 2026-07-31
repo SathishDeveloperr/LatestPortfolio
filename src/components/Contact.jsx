@@ -53,7 +53,7 @@ export default function Contact() {
               return (
                 <Reveal key={label} delay={0.1 + i * 0.07}>
                   <Tag
-                    {...(href ? { href, target: href.startsWith('http') ? '_blank' : undefined, rel: 'noreferrer' } : {})}
+                    {...(href ? { href, target: href.startsWith('https') ? '_blank' : undefined, rel: 'noreferrer' } : {})}
                     className={`block rounded-2xl bg-ink/25 backdrop-blur border border-cream/15 p-6 h-full transition-all duration-300 ${
                       href ? 'hover:border-cream/40 hover:bg-ink/40 hover:-translate-y-1' : ''
                     }`}
